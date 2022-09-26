@@ -16,14 +16,14 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #511164;
+    background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(61, 26, 85);
+    background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(85, 85, 85);
+    background: #555;
 }
 
 /* all similar content styling codes */
@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .tools, .contact, footer{
+.about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -63,7 +63,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: rgb(17, 17, 17);
+    background: #111;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: purple;
+    color: crimson;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner1.jpg");
-    height: 100px;
-    color: rgb(235, 55, 55);
+    background: url("images/banner.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -263,11 +263,11 @@ section .title::after{
     background: #111;
 }
 .services .title::before,
-.tools .title::before{
+.teams .title::before{
     background: #fff;
 }
 .services .title::after,
-.tools .title::after{
+.teams .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -295,7 +295,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -380,10 +380,10 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "What i can use";
+    content: "who with me";
 }
 .teams .carousel .card{
-    background: rgb(253, 246, 246);
+    background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -404,7 +404,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
