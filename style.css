@@ -165,10 +165,10 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner1.jpg") no-repeat center;
-    height: 80px;
+    background: url("images/banner1.jpg");
+    height: 100px;
     color: rgb(235, 55, 55);
-    min-height: 300px;
+    min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -221,8 +221,8 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 250px;
-    width: 250px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
